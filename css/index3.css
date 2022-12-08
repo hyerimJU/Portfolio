@@ -1,0 +1,82 @@
+.about{
+    position: relative;
+    width: 77.8125%;
+    margin: 0 auto;
+    top: 44px;
+    font-family: 'Inter', sans-serif;
+}
+.about h1{
+    padding: 96px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about .about-section1{
+    display: flex;
+    margin: 0 auto;
+}
+.about .about-section1 .about-section1-left{
+    width: 33.7%;
+    padding: 50px 0;
+    line-height: 40px;
+}
+.about .about-section1 .about-section1-left p{
+    text-align: right;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #A18CD1;
+}
+.about .about-section1 .about-section1-right{
+    width: 66.3%;
+    padding: 30px 0;
+    padding-left: 56px;
+}
+.about .about-section1 .about-section1-right ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+.about .about-section1 .about-section1-right ul li span{
+    margin-right: 76px;
+    font-size: 18px;
+    color: #666666;
+}
+.about .about-section1 .about-section1-right ul li:nth-child(2){
+    line-height: 40px;
+}
+#about-section3{
+    margin-bottom: 96px;
+}
+#about-section3 .about-section1-right ul li{
+    margin-bottom: 30px;
+}
+#about-section3 .about-section1-right ul li p{
+    line-height: 40px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+footer span a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+footer span a:visited,
+footer span a:active{
+    text-decoration: none;
+}
+footer span i{
+    font-size: 17px;
+    padding-right: 5px;
+}

@@ -1,0 +1,225 @@
+
+
+.web1-title{
+    position: relative;
+    width: 100%;
+    height: 1574px;
+    margin: 0 auto;
+    top: 44px;
+    padding-top: 56px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.web1-title h1{
+    font-size: 50px;
+}
+.web1-title p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 16px 0 36px;
+}
+.web1-title .mega-bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.web1-title .mega-pc{
+    margin-top: 620px;
+    width: 45%;
+}
+.web1-title div{
+    margin: 36px 0;
+}
+.web1-title div a{
+    padding: 12.5px 19px;
+    border-radius: 25px;
+    border: 2px solid #EC77AB;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.web1-title div a {
+    border: none;
+    z-index: 1;
+}
+.web1-title div a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 25px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.web1-title div a:hover {
+    color: #fff;
+}
+.web1-title div a:hover:after {
+    left: 0;
+    width: 100%;
+}
+.web1-title div a:active {
+    top: 2px;
+}
+.custom-btn {
+    color: #000;
+    border-radius: 25px;
+    padding: 12.5px 19px;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background: #EC77AB;
+    border: none;
+    z-index: 1;
+}
+.custom-btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #A18CD1;
+    border-radius: 25px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.custom-btn:hover {
+    color: #fff;
+}
+.custom-btn:hover:after {
+    left: 0;
+    width: 100%;
+}
+.custom-btn:active {
+    top: 2px;
+}
+.custom-btn i{
+    padding-left: 6px;
+}
+
+/* content */
+.web1-content{
+    position: relative;
+    width: 72.5%;
+    margin: 0 auto;
+    padding: 0 0 192px;
+    font-family: 'Inter', sans-serif;
+}
+/* content-2 */
+.web1-content .web1-content-2{
+    margin-top: 36px;
+}
+.web1-content .web1-content-2 h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #A18CD1;
+    margin-bottom: 16px;
+}
+.web1-content .web1-content-2 h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #3B1A6B;
+    margin-bottom: 16px;
+}
+.web1-content .web1-content-2 .background{
+    width: 100%;
+    padding: 32px 28px;
+    border-radius: 20px;
+    background-color: #F1F1F5;
+}
+.web1-content .web1-content-2 .background p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.web1-content .web1-content-2 #renewal-bg1{
+    margin-bottom: 16px;
+}
+.web1-content .web1-content-2 #mega-introduce{
+    display: flex;
+}
+.web1-content .web1-content-2 #mega-introduce p:first-child{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+/* content3 */
+.web1-content .web1-content-4 div h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #A18CD1;
+    margin: 36px 0 16px;
+}
+.web1-content .web1-content-4 div ul{
+    display: flex;
+    width: 100%;
+}
+.web1-content .web1-content-4 div ul li:first-child{
+    width: 16%;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.web1-content .web1-content-4 div ul li:nth-child(2){
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.web1-content .web1-content-4 div ul li:nth-child(3){
+    width: 24%;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+}
+.web1-content .web1-content-4 div ul li img{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+footer span a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+footer span a:visited,
+footer span a:active{
+    text-decoration: none;
+}
+footer span i{
+    font-size: 17px;
+    padding-right: 5px;
+}
